@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Receitas Deliciosas</string>
+
+    <!-- Navegação -->
+    <string name="title_lista_receitas">Lista de Receitas</string>
+    <string name="title_categorias">Categorias</string>
+    <string name="title_dicas">Dicas</string>
+
+    <!-- Spinner -->
+    <string-array name="categorias_receitas">
+        <item>Sobremesas</item>
+        <item>Pratos Principais</item>
+        <item>Aperitivos</item>
+        <item>Bebidas</item>
+    </string-array>
+
+    <!-- Lista de receitas -->
+    <string-array name="nomes_receitas">
+        <item>Bolo de Chocolate</item>
+        <item>Pizza Caseira</item>
+        <item>Salada Caesar</item>
+        <item>Smoothie de Frutas</item>
+    </string-array>
+
+    <string-array name="descricoes_receitas">
+        <item>Bolo fofinho com cobertura de chocolate</item>
+        <item>Pizza feita em casa com massa crocante</item>
+        <item>Salada clássica com molho especial</item>
+        <item>Bebida refrescante com mix de frutas</item>
+    </string-array>
+
+    <!-- Dicas -->
+    <string-array name="dicas_culinarias">
+        <item>Use água gelada para massas mais crocantes</item>
+        <item>Descongele carnes na geladeira, não em temperatura ambiente</item>
+        <item>Para ovos mais cremosos, adicione um pouco de leite</item>
+        <item>Tempere carnes com antecedência para mais sabor</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Configurações</string>
+</resources>

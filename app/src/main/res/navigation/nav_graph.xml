@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ListaReceitasFragment">
+
+    <fragment
+        android:id="@+id/ListaReceitasFragment"
+        android:name="com.example.receitasdeliciosas.ListaReceitasFragment"
+        android:label="@string/title_lista_receitas"
+        tools:layout="@layout/fragment_lista_receitas" />
+
+    <fragment
+        android:id="@+id/CategoriasFragment"
+        android:name="com.example.receitasdeliciosas.CategoriasFragment"
+        android:label="@string/title_categorias"
+        tools:layout="@layout/fragment_categorias" />
+
+    <fragment
+        android:id="@+id/DicasFragment"
+        android:name="com.example.receitasdeliciosas.DicasFragment"
+        android:label="@string/title_dicas"
+        tools:layout="@layout/fragment_dicas" />
+</navigation>
