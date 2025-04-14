@@ -6,31 +6,11 @@
     android:padding="16dp"
     android:background="@color/background_color">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_lista_receitas"
-        android:textSize="24sp"
-        android:textColor="@color/primary_color"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_marginBottom="16dp"/>
-
-    <ListView
-        android:id="@+id/listaReceitas"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewReceitas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="@color/teal_200"
-        android:dividerHeight="1dp"/>
-
-    <Button
-        android:id="@+id/btnTocarSom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tocar Som"
-        android:layout_gravity="center"
-        android:backgroundTint="@color/primary_color"
-        android:textColor="@color/white"
-        android:layout_marginTop="8dp"/>
+        android:padding="16dp"
+        android:clipToPadding="false" />
 
 </LinearLayout>

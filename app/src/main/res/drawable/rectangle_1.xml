@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="64dp"
+    android:height="28dp"
+    android:viewportWidth="64"
+    android:viewportHeight="28">
+
+    <!-- Path com cantos arredondados -->
+    <path
+        android:pathData="M5,0 h54 a5,5 0 0 1 5,5 v18 a5,5 0 0 1 -5,5 h-54 a5,5 0 0 1 -5,-5 v-18 a5,5 0 0 1 5,-5 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="14"
+                android:endX="64"
+                android:endY="14">
+                <item android:color="#A12A09" android:offset="0"/>
+                <item android:color="#940D0D" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
