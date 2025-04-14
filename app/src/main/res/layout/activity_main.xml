@@ -11,10 +11,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"/>
+            android:layout_height="92dp"
+            android:background="@drawable/header">
+
+            <TextView
+                android:id="@+id/cookbook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_centerVertical="true"
+                android:text="@string/cookbook"
+                android:textAppearance="@style/cookbook"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />

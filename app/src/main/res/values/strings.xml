@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Receitas Deliciosas</string>
+    <string name="app_name">CookBook</string>
+    <string name="cookbook">CookBook</string>
 
     <!-- Navegação -->
     <string name="title_lista_receitas">Lista de Receitas</string>
@@ -39,4 +40,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="action_settings">Configurações</string>
+
+
 </resources>

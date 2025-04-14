@@ -1,0 +1,31 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="412dp"
+    android:height="92dp"
+    android:viewportWidth="412"
+    android:viewportHeight="92">
+
+    <!-- Retângulo simples cobrindo toda a área -->
+    <path
+        android:pathData="M0,0H412V92H0V0Z">
+        <!-- Define o gradiente de cor -->
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="412"
+                android:endY="0">
+                <!-- Cor inicial (esquerda) -->
+                <item
+                    android:color="#A12A09"
+                    android:offset="0"/>
+                <!-- Cor final (direita) -->
+                <item
+                    android:color="#940D0D"
+                    android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
