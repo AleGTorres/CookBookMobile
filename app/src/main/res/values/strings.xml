@@ -17,26 +17,69 @@
 
     <!-- Lista de receitas -->
     <string-array name="nomes_receitas">
+        <item>Lasanha de Beringela</item>
         <item>Bolo de Chocolate</item>
         <item>Pizza Caseira</item>
         <item>Salada Caesar</item>
         <item>Smoothie de Frutas</item>
+        <item>Torta de Limão</item>
+        <item>Brigadeiro Gourmet</item>
+        <item>Churros Caseiro</item>
+        <item>Pudim de Leite</item>
+        <item>Pavê de Chocolate</item>
+        <item>Suco Detox Verde</item>
+        <item>Bolinho de Bacalhau</item>
+
     </string-array>
 
     <string-array name="descricoes_receitas">
+        <item>Prato leve e saboroso com camadas de berinjela grelhada, molho de tomate e queijo derretido</item>
         <item>Bolo fofinho com cobertura de chocolate</item>
         <item>Pizza feita em casa com massa crocante</item>
         <item>Salada clássica com molho especial</item>
         <item>Bebida refrescante com mix de frutas</item>
+        <item>Torta com base crocante, recheio cremoso de limão e cobertura de merengue</item>
+        <item>Brigadeiro feito com chocolate belga e finalizado com granulado especial</item>
+        <item>Churros crocantes recheados com doce de leite</item>
+        <item>Sobremesa clássica e cremosa feita com leite condensado, ovos e calda de caramelo</item>
+        <item>Sobremesa em camadas com biscoito, creme e chocolate</item>
+        <item>Bebida refrescante com couve, limão, gengibre e maçã</item>
+        <item>Petisco tradicional feito com bacalhau desfiado, batatas e temperos, frito até ficar dourado e crocante</item>
+    </string-array>
+
+    <!-- Ingredientes -->
+    <string-array name="ingredientes_receitas">
+        <item>2 berinjelas grandes, 500g de molho de tomate, 300g de queijo mussarela, 200g de presunto (opcional), sal e pimenta a gosto, azeite para grelhar</item>
+        <item>3 ovos, 2 xícaras de farinha de trigo, 1 xícara de açúcar, 1 xícara de chocolate em pó, 1 xícara de leite, 1/2 xícara de óleo, 1 colher (sopa) de fermento</item>
+        <item>500g de farinha de trigo, 1 colher (sopa) de fermento biológico seco, 1 colher (chá) de sal, 1 colher (sopa) de açúcar, 300ml de água morna, 2 colheres (sopa) de azeite, molho de tomate, queijo e recheios a gosto</item>
+        <item>1 pé de alface romana, 1/2 xícara de croutons, 50g de queijo parmesão ralado, molho Caesar (maionese, alho, limão, mostarda e anchovas)</item>
+        <item>1 banana congelada, 1/2 xícara de morangos congelados, 1/2 xícara de iogurte natural, 1/2 xícara de leite ou suco de laranja</item>
+        <item>200g de biscoito maisena, 100g de manteiga derretida, 1 lata de leite condensado, 1/2 xícara de suco de limão, 3 claras, 3 colheres (sopa) de açúcar</item>
+        <item>1 lata de leite condensado, 100g de chocolate meio amargo, 1 colher (sopa) de manteiga, granulado gourmet para decorar</item>
+        <item>1 xícara de água, 2 colheres (sopa) de manteiga, 1 xícara de farinha de trigo, 1 pitada de sal, açúcar e canela para polvilhar, doce de leite para rechear</item>
+        <item>1 lata de leite condensado, 2 latas de leite (use a lata de leite condensado como medida), 3 ovos, 1 xícara de açúcar (para a calda)</item>
+        <item>1 pacote de biscoito maisena, 1 lata de leite condensado, 2 colheres (sopa) de chocolate em pó, 1 lata de creme de leite, leite para molhar os biscoitos</item>
+        <item>1 folha de couve, 1 maçã, suco de 1 limão, 1 pedaço pequeno de gengibre, 200ml de água gelada</item>
+        <item>500g de bacalhau dessalgado e desfiado, 500g de batatas cozidas e amassadas, 1 ovo, salsinha picada a gosto, sal e pimenta a gosto, óleo para fritar</item>
     </string-array>
 
     <!-- Dicas -->
     <string-array name="dicas_culinarias">
-        <item>Use água gelada para massas mais crocantes</item>
-        <item>Descongele carnes na geladeira, não em temperatura ambiente</item>
-        <item>Para ovos mais cremosos, adicione um pouco de leite</item>
-        <item>Tempere carnes com antecedência para mais sabor</item>
+        <item>Corte as berinjelas em fatias finas e grelhe com azeite. Em uma travessa, monte camadas de berinjela, molho, queijo e presunto. Finalize com queijo e leve ao forno a 180°C por 30 minutos.</item>
+        <item>Misture os ingredientes secos e adicione os líquidos. Bata até obter uma massa homogênea. Asse em forno pré-aquecido a 180°C por 40 minutos.</item>
+        <item>Misture os ingredientes da massa e deixe descansar por 1 hora. Abra a massa, adicione o molho e os recheios. Asse em forno a 200°C por 20 minutos.</item>
+        <item>Lave e rasgue as folhas de alface. Misture com os croutons e o molho. Finalize com parmesão ralado.</item>
+        <item>Bata todos os ingredientes no liquidificador até ficar cremoso. Sirva gelado.</item>
+        <item>Misture o biscoito triturado com a manteiga e forre uma forma. Misture o leite condensado com o suco de limão e despeje sobre a base. Bata as claras com açúcar, coloque sobre a torta e leve ao forno para dourar.</item>
+        <item>Cozinhe o leite condensado, o chocolate e a manteiga até desgrudar da panela. Deixe esfriar, enrole e passe no granulado.</item>
+        <item>Ferva a água com a manteiga e o sal, adicione a farinha e misture. Modele os churros, frite e passe no açúcar com canela. Recheie com doce de leite.</item>
+        <item>Caramelize o açúcar em uma forma. Bata os demais ingredientes no liquidificador e despeje na forma. Asse em banho-maria por 1 hora.</item>
+        <item>Faça um creme com o leite condensado, chocolate e creme de leite. Monte camadas de biscoito molhado no leite e creme. Finalize com creme e leve à geladeira.</item>
+        <item>Bata todos os ingredientes no liquidificador. Coe, se preferir, e sirva gelado.</item>
+        <item>Misture o bacalhau, as batatas, o ovo e os temperos. Modele os bolinhos e frite em óleo quente até dourar.</item>
     </string-array>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="action_settings">Configurações</string>
