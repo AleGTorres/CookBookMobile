@@ -24,7 +24,7 @@ public class ListaReceitasFragment extends Fragment {
         String[] nomesReceitas = getResources().getStringArray(R.array.nomes_receitas);
         String[] descricoesReceitas = getResources().getStringArray(R.array.descricoes_receitas);
 
-        ReceitasAdapter adapter = new ReceitasAdapter(nomesReceitas, descricoesReceitas, getContext());
+        ReceitasAdapter adapter = new ReceitasAdapter(getContext());
         recyclerView.setAdapter(adapter);
 
         return view;
