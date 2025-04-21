@@ -27,7 +27,7 @@ public class CategoriasFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_categorias, container, false);
 
-        // Configura o Spinner
+        // configura o Spinner
         Spinner spinner = view.findViewById(R.id.spinnerCategorias);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
                 requireContext(),
@@ -37,14 +37,14 @@ public class CategoriasFragment extends Fragment {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
-        // Ação ao selecionar uma categoria no Spinner
+        // ação ao selecionar uma categoria no Spinner
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String categoria = parent.getItemAtPosition(position).toString();
                 Toast.makeText(getContext(), "Categoria selecionada: " + categoria, Toast.LENGTH_SHORT).show();
 
-                // Tocar som ao selecionar uma categoria
+                // tocar som ao selecionar uma categoria
                 if (mediaPlayer == null) {
                     mediaPlayer = MediaPlayer.create(getContext(), R.raw.som_categoria);
                     mediaPlayer.setOnCompletionListener(mp -> {
@@ -60,11 +60,11 @@ public class CategoriasFragment extends Fragment {
             }
         });
 
-        // Configura o GridView
+        // configura o GridView
         GridView gridView = view.findViewById(R.id.gridReceitas);
         gridView.setAdapter(new ImageAdapter(requireContext(), imagensReceitas));
 
-        // Ação ao clicar em um item do Grid
+        // ação ao clicar em um item do Grid
         gridView.setOnItemClickListener((parent, view1, position, id) -> {
             Toast.makeText(getContext(), "Receita " + (position + 1) + " selecionada", Toast.LENGTH_SHORT).show();
         });

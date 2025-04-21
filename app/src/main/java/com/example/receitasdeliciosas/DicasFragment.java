@@ -19,7 +19,7 @@ public class DicasFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_dicas, container, false);
 
-        // Configura a ListView personalizada
+        // configura a ListView personalizada
         ListView listView = view.findViewById(R.id.listaDicas);
         String[] dicas = getResources().getStringArray(R.array.dicas_culinarias);
         int[] imagensDicas = {
@@ -32,11 +32,11 @@ public class DicasFragment extends Fragment {
         DicasAdapter adapter = new DicasAdapter(requireContext(), dicas, imagensDicas);
         listView.setAdapter(adapter);
 
-        // Ação ao clicar em um item da lista
+        // ação ao clicar em um item da lista
         listView.setOnItemClickListener((parent, view1, position, id) -> {
             Toast.makeText(getContext(), dicas[position], Toast.LENGTH_LONG).show();
 
-            // Tocar som diferente para cada dica
+            // tocar som diferente para cada dica
             if (mediaPlayer != null) {
                 mediaPlayer.release();
             }
