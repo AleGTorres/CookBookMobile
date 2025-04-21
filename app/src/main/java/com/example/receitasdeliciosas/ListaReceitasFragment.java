@@ -54,13 +54,13 @@ public class ListaReceitasFragment extends Fragment {
                 for (int i = 0; i < nomesReceitas.length; i++) {
                     switch (position) {
                         case 0: // Sobremesas
-                            if (i >= 5 && i <= 9) {
+                            if (i >= 5 && i <= 9 || i == 1) {
                                 nomesFiltrados.add(nomesReceitas[i]);
                                 descricoesFiltradas.add(descricoesReceitas[i]);
                             }
                             break;
                         case 1: // Pratos Principais
-                            if (i >= 0 && i <= 2) {
+                            if (i == 0 || i == 2) {
                                 nomesFiltrados.add(nomesReceitas[i]);
                                 descricoesFiltradas.add(descricoesReceitas[i]);
                             }
